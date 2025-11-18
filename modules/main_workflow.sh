@@ -69,7 +69,7 @@ main() {
     # =============================================================================
     
     get_minecraft_version         # Determine target Minecraft version (user choice or latest)
-    detect_java                   # Automatically detect, install, and configure correct Java version for selected Minecraft version
+    #detect_java                   # Automatically detect, install, and configure correct Java version for selected Minecraft version
     get_fabric_version           # Get compatible Fabric loader version from API
     get_lwjgl_version            # Detect appropriate LWJGL version for Minecraft version
     
